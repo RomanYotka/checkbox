@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/style.css">
+   <title>Checkbox</title>
+</head>
+
+<body>
+   <div class="wrapper">
+      <div class="content">
+         <form class="form_content" action="https://fom.in.ua/echo">
+            <div class="main_btn">
+               <input type="radio" id="leftbtn" name="btn_group" checked>
+               <label for="leftbtn">Вход</label>
+
+               <input type="radio" id="rightbtn" name="btn_group">
+               <label for="rightbtn">Регитсрация</label>
+               <span></span>
+            </div>
+            <div class="main">
+               <h1>Вход</h1>
+            </div>
+            <label class="mail_box">
+               <input type="email" placeholder="Введите E-mail" name="email">
+            </label>
+            <label class="password_box">
+               <input type="password" placeholder="Пароль" name="password">
+            </label>
+            <div class="checkbox">
+               <input name="remember_me" type="checkbox" id="remember_me" class="custom_checkbox">
+               <label for="remember_me">Запомнить меня</label>
+               <a href="#">Забыл пароль?</a>
+            </div>
+            <label class="enter">
+               <input type="submit" value="Boйти">
+            </label>
+            <div class="registration">
+               <p>Еще нет аккаунта?</p>
+               <a href="#">Зарегетрироваться</a>
+            </div>
+            <div class="end">
+               <p>Или войдите через</p>
+            </div>
+            <ul class="social_networks">
+               <li>
+                  <a href="#">
+                     <svg class="icon">
+                        <use xlink:href="icon/sprite.svg#facebook"></use>
+                  </svg>
+                  </a>
+               </li>
+               <li>
+                  <a href="#">
+                     <svg class="icon">
+                        <use xlink:href="icon/sprite.svg#insta"></use>
+                  </svg>
+                  </a>
+               </li>
+               <li>
+                  <a href="#">
+                     <svg class="icon">
+                        <use xlink:href="icon/sprite.svg#in"></use>
+                  </svg>
+                  </a>
+               </li>
+            </ul>
+         </form>
+      </div>
+   </div>
+</html>
